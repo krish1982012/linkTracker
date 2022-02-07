@@ -1,0 +1,14 @@
+{
+    "manifest_version":3 ,
+    "version": "1.0",
+    "name": "Links tracker",
+    "action":{
+        "default_popup":"index.html",
+        "default_icon":"icon.png"
+    },
+    "permissions": [
+        "tabs"
+    ],
+    "description":"Links tracker helps you to save link links while browsing on the internet so that you can access them later whenever you required. you can also enter the URL you want to save it helps in tracking down the complex URLs"
+    
+}

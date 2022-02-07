@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(136, 122, 185, 0.445);
+    height: 150px;
+    overflow-y: scroll;
+    font-family: monospace;
+    font-size: 12px;
+}
+#inputLink{
+    min-width: 350px;
+    margin:5px 15px;
+    border: 2px solid black;
+    
+}
+#inputLink:focus{
+    background-color: rgb(229, 226, 226);
+}
+button{
+    margin-top: 1px;
+    margin-left: 15px;
+    font-size: 13px;
+    color:black;
+    background-color: #4bcfbe;
+    transition: background-color 1s;
+    transition: color 1s;
+    cursor: pointer;
+}
+button:hover{
+    background-color: black;
+    color: white;
+}
+ul li{
+    list-style-type: decimal;
+    
+}
+a{
+    text-decoration: none;
+}
+#listBody{
+    height: 150px;
+    width: 300px;
+    /* border: 1px solid black; */
+    overflow-y: scroll;
+    
+}
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: rgba(136, 122, 185, 0.445); 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background:  rgba(135, 122, 185, 0.705); 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgba(84, 69, 167, 0.959); 
+  }
+  a:visited{
+      color: red;
+  }
+  #deleteItem{
+      position: fixed; 
+      top: 50px;
+      margin-right: 5px;
+      right: 0px;
+      width: 80px;
+  }
+  #deleteItem input{
+      width: 80px;
+  }
+  #deleteItem input:focus{
+    background-color: rgb(229, 226, 226);
+  }
+  #deleteLink{
+      margin-top: 5px;
+      padding: 2px 2px;
+      background-color:#4bcfbe;
+      cursor: pointer;
+  }
